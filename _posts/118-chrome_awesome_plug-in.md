@@ -58,6 +58,11 @@ keywords: Chrome plug-in, Vimium, cVim, Tampermonkey(油猴子),OneTab, 阅读�
 
 [链接直达](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=zh-CN)
 
+### **The Great Suspender**
+这是一款 Chrome 下的多标签页管理应用，用来临时休眠掉不使用的标签页，从而释放出更多的内存和资源，让你做更重要的事情；在需要的时候点一下就能恢复。这跟 `OneTab` 还是有些区别的。
+
+[链接直达](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg?hl=zh-CN)
+
 ### **LastPass**
 密码管理软件。可将你所有的密码信息保存起来，你再也无需记住复杂繁多的密码了，只需登录到lastpass，然后保存你的密码，lastpass会自动帮你完成登录，不需要输入密码。它还允许你从任何主流的密码存储器导入和导出密码，捕获其它管理器无法捕获的密码包括很多 AJAX 表单。也可轻松地创建强大的密码。敏感信息在上传之前已在本地计算机上加密，因此就算是LastPass的员工也无法得到密码信息。更妙de在于，lastpass支持的不仅仅是Chrome，还有Firefox、opera，甚至IE;当然如果你有一套完善便捷的密码方案，可忽略之（★★★★）。
 

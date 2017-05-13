@@ -13,6 +13,7 @@ date: 2016-04-17 18:18:18
 
 - ### **常逛博客：**
     + [阮一峰的网络日志](http://www.ruanyifeng.com/blog/?from=jeffjade.com)
+    + [晚晴幽草轩](http://jeffjade.com/?from=jeffjade.com)
     + [鑫空间，鑫生活-张鑫旭](http://www.zhangxinxu.com/?from=jeffjade.com)
     + [MacTalk-池建强的随想录](http://macshuo.com?from=jeffjade.com)
     + [云风的 BLOG](http://blog.codingnow.com/?from=jeffjade.com)
@@ -37,21 +38,22 @@ date: 2016-04-17 18:18:18
 
 - ### **友情链接:**
 
-| 博客名 | 博客地址 | 博客类型 | 琼璞备注 |
-|:---------------:|:---------------:|:---------------:|:---------------:|
-|发动机的小角落| [http://pizida.com/](http://pizida.com/?from=jeffjade.com) | PHP |好友&老同事.性感男子|
-|夜殇的小站| [http://www.brucezhou.com/](http://www.brucezhou.com/?from=jeffjade.com) | Front-End | 神交小友.有聊未面 |
-|墨香博客| [http://www.codemx.cn/](http://www.codemx.cn/?from=jeffjade.com) | Android | 网络之友.有聊未面 |
-|Jing's Blog| [http://www.iamlj.com/](http://www.iamlj.com/?from=jeffjade.com) | 倾.极客/全栈 | 友链博主 |
-|小小小码农| [http://cppdemo.com/](http://cppdemo.com/?from=jeffjade.com) | 后台Server | 博雅互动同事 |
-|君南的稀罕货| [http://lijunnan.com/](http://lijunnan.com/?from=jeffjade.com) | 不做评说 | 首位本站互链博主 |
-|猿码阁| [http://istarvip.cn/](http://istarvip.cn/?from=jeffjade.com) | 不做评说 |友链博主|
-|吕小鸣| [https://www.nihaoshijie.com.cn/](https://www.nihaoshijie.com.cn/?from=jeffjade.com) | 前端开发 | 友链博主 |
-|矿世的忧伤| [http://konghy.cn/](http://konghy.cn/?from=jeffjade.com) | 文艺.软件工程师 | 知音.友链博主 |
-|WWW.ZYL.ME| [https://zyl.me/](https://zyl.me/?from=jeffjade.com) | 爱折腾的Geeker |友链博主|
-|REIDHOLMES| [http://reidholmes.cn/blog/](http://reidholmes.cn/blog/?from=jeffjade.com) | Front-End | 友链博主 |
-|行走在猿类世界| [http://wenqy.com/](http://wenqy.com/?from=jeffjade.com) | 不做评说 | 友链博主 |
-|音符の新世界| [http://freedom.moe/](http://freedom.moe/?from=jeffjade.com) | 不做评说 | 友链博主 |
+| 博客地址 | 琼璞备注 |
+|:----:|:-----------|
+|[发动机的小角落](http://pizida.com/?from=jeffjade.com) |好友.老同事|
+|[夜殇的小站](http://www.brucezhou.com/?from=jeffjade.com) | 神交小友.有聊未面 |
+|[墨香博客](http://www.codemx.cn/?from=jeffjade.com) | 网络之友.有聊未面 |
+|[Jing's Blog](http://www.iamlj.com/?from=jeffjade.com) | 友链博主 |
+|[君南的稀罕货](http://lijunnan.com/?from=jeffjade.com) | 首位本站互链博主 |
+|[猿码阁](http://istarvip.cn/?from=jeffjade.com) |友链博主|
+|[吕小鸣](https://www.nihaoshijie.com.cn/?from=jeffjade.com) | 友链博主 |
+|[矿世的忧伤](http://konghy.cn/?from=jeffjade.com) | 知音.文艺.友链博主 |
+|[WWW.ZYL.ME](https://zyl.me/?from=jeffjade.com) |友链博主|
+|[技术胖](http://jspang.com/?from=jeffjade.com) | 友链博主 |
+|[VF2E](https://www.vf2e.com?from=jeffjade.com) | 独立思考，停止盲从 |
+|[REIDHOLMES](http://reidholmes.cn/blog/?from=jeffjade.com) | 友链博主 |
+|[行走在猿类世界](http://wenqy.com/?from=jeffjade.com) | 友链博主 |
+|[音符の新世界](http://freedom.moe/?from=jeffjade.com) | 友链博主 |
 
 - ### **以链会友**
 

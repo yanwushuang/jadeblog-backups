@@ -118,6 +118,7 @@ visual studio code|https://code.visualstudio.com
 **JavaScript 资源大全中文版**|https://github.com/jobbole/awesome-javascript-cn
 **100+ 超全的web开发工具和资源**|https://xituqu.com/170.html
 **设计师网址导航**|http://hao.uisdc.com/
+Web前端导航(Alloyteam)|http://www.alloyteam.com/nav/
 **快搜**|http://so.chongbuluo.com/
 阿里iconfont|http://www.iconfont.cn/
 zoommyapp.com|http://zoommyapp.com/ 高质量图库
@@ -140,6 +141,7 @@ codepen|http://codepen.io/
 __奇舞周刊__ | http://old.75team.com/weekly/
 淘宝前端团队（FED）|http://taobaofed.org
 码农周刊|http://weekly.manong.io
+凹凸实验室|https://aotu.io/
 WEB前端开发|http://www.css88.com
 A JS tip per day! |http://www.jstips.co
 腾讯全端 AlloyTeam |http://www.alloyteam.com/webdevelop/
@@ -279,7 +281,6 @@ Js template| 地址
 template-chooser|http://garann.github.io/template-chooser
 artTemplate|https://github.com/aui/artTemplate
 tomdjs|https://github.com/aui/tmodjs/blob/master/README.md
-淘宝模板juicer模板|http://juicer.name/docs/docs_zh_cn.html
 Fxtpl v1.0 繁星前端模板引擎|http://koen301.github.io/fxtpl
 laytpl|http://laytpl.layui.com
 mozilla - nunjucks|https://github.com/mozilla/nunjucks
@@ -525,7 +526,6 @@ AEditor|http://aeditor.alloyteam.com H5动画交互页开发的工具
 值得订阅的weekly|https://github.com/fenbility/weekly-feed
 奇舞团开源项目|http://75team.github.io
 Qunar UED|http://ued.qunar.com
-Scrat|http://scrat.io
 
 ## __常用__
 
