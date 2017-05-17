@@ -2,7 +2,7 @@
 title: Vimium~让您的Chrome起飞
 date: 2015-10-19 11:00:00
 categories: Toss
-tags: 
+tags:
 - Toss
 - Tools
 - Efficiency

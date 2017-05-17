@@ -59,7 +59,7 @@ __ 读自：博客园－CoffeeDeveloper
 * **[想要提高效率，就得不公平](http://www.geekonomics10000.com/973)**
 * **[《把时间当做朋友》：一本关于心智的启蒙书](http://blog.devtang.com/2016/04/19/control-yourself/)**
 
-###__提问思考__
+### **提问思考**
 * [学会提问](http://dbarobin.com/2015/08/15/asking-the-right-questions/)～请自：温国兵的随想录；观念，独立思考过滤后才是你的。提到诸多观点谈及心坎里，很湿受用。
 * [你会问问题吗？](http://coolshell.cn/articles/3713.html)～请自：陈浩，酷壳；侧重于去谈“怎么去问问题，怎么问一个好的问题”。
 

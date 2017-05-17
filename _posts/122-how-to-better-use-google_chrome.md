@@ -16,7 +16,7 @@ keywords: Google Chrome 高效 科学上网 搜索技巧
 
 <!-- more -->
 
->**微注：** 写博，本就不是易事，非朝夕可至，尤其这种整理总结性文章；故此，这里将采取阶段性更新手法，一来防止了拖延之；二来，也能不断学习提炼，减少内容的错误误导，三来，也是防止些许聚合网恶意抓取的尝试。（Update @2017-05-04）
+>**微注：** 写博，本就不是易事，非朝夕可至，尤其这种整理总结性文章；故此，这里将采取阶段性更新手法，一来防止了拖延之；二来，也能不断学习提炼，减少内容的错误误导，三来，也是防止些许聚合网恶意抓取的尝试。（Update @2017-05-16）
 
 ## **科学上网篇**
 使用浏览器，懂得如何去科学上网，这一点再重要不过了（个别浏览器除外，有些浏览器的存在，就只是用来下载其他浏览器的，大家都懂得）。这其中，首当其冲的就是选择合适搜索引擎。在国内，倒是有那么几家可选，譬如百度，360，搜狗，Bing等等，搜索写娱乐八卦什么的，倒也无妨。但是，要搜索些专业性、原味性的干货，你当知道，此时该选择谷歌(Google)，这就跟饿了知道该吃饭一般；然而，这在我国大陆，多半只存在于**好**的程序员之间。然后就是如何能使用谷歌（Google）了——须**翻墙**，你知道在国内，无法直接使用 Google 搜索（略大型点的科技公司除外）。
@@ -122,7 +122,15 @@ sudo /etc/init.d/shadowsocks-libev start    # for sysvinit, or
 sudo systemctl start shadowsocks-libev      # for systemd
 ```
 
-如此，简单的一次操作之后，就能长久的欢乐嗨皮了；更多系统的安装配置方法，请自行参见 [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev)。
+如此，简单的一次操作之后，就能长久的欢乐嗨皮了；更多系统的安装配置方法，请自行参见 [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev)。还需要提及的是，使用这个库，也有些弊端性，就是不能方便的支持多端口，可以参见[issues/#5](https://github.com/shadowsocks/shadowsocks-libev/issues/5)；可以有的办法是，启用多个配置来曲线达成所愿，操作方法如下：
+
+```
+ss-server -c config1.json -f pid1
+ss-server -c config2.json -f pid2
+ss-server -c config3.json -f pid3
+```
+
+如此即可；也可通过运行 `netstat -tlnp` 命令，查看 ss-server 是否监听了多个配置文件的端口。如果略嫌这样操作麻烦的话，也可以用 Shadowsocks 的 Go 版本 —— [shadowsocks-go](https://github.com/shadowsocks/shadowsocks-go)，它更为方便的支持多端口的设置（update@2017-05-15）。
 
 ---
 
@@ -174,12 +182,55 @@ Clean Code filetype:PDF
 以上，只是 Google 搜索技巧中常用的几个，其他还有很多，比如：`inurl`， `inanchor`，`allinurl`诸次等等，更多玩法，可以参考知乎 [如何用好谷歌等搜索引擎？](https://www.zhihu.com/question/20161362)；熟练运用，灵活搭配，从而大幅度提升工作效率，并更好地解决问题。此处需要补充的是，以上诸法，并非都适用于百度；即使支持，因为其自身缘由(比如收录不及时)，并不能很好的起到应有的效用。
 
 ## 插件扩展篇
-Chrome，以及很多主流工具，比如手机，Mac，编辑器等等，都是基于按需索取的理念，这才是一种更合理的存在。将更多功能，以插件、扩展的形式按需注入，不仅更合理地满足所有人所需，也给出了更多选择余地的同时，还能让软件本身更加轻盈体瘦。这一点需要讲明的是，如果说“小白”执意甘为小白，那么这里未有苦劝之义务。关于这部分，早先有在 [Awesome Chrome 插件集锦](http://jeffjade.com/2017/01/23/118-chrome_awesome_plug-in/?from=me)一文中做过记载，并持续更新，此不赘述。
+当你发现，有人使用 Chrome，而插件扩展栏目，竟空空如也，你就知道：**Ta 的业余是专业的**，尤其是开发者。**Chrome**，以及很多主流工具，比如手机，Mac，编辑器等等，都是基于按需索取的理念，这才是一种更合理的存在。将更多功能，以插件、扩展的形式按需注入，不仅更合理地满足所有人所需，也给出了更多选择余地的同时，还能让软件本身更加轻盈体瘦。这一点需要讲明的是，如果说“小白”执意甘为小白，那么这里未有苦劝之义务。关于这部分，早先有在 [Awesome Chrome 插件集锦](http://jeffjade.com/2017/01/23/118-chrome_awesome_plug-in/?from=me)一文中做过记载，并持续更新，此不赘述。
 
-这里还需**郑重声明**的是：欲要优雅地使用 Chrome，首先也得**注册谷歌账号，并保持登录**。登录使你所有的东西（书签，应用，扩展，浏览记录等），都可以保存到云端，如此在不同的环境（如家 or 公司）下可以方便的同步。试想，重装系统，或者换台电脑之后，如果要逐个去找之前装的扩展，保存的书签，这样的事情，怎能称不上优雅？
+这里还需**郑重声明**的是：欲要优雅地使用 Chrome，首先也得**注册谷歌账号，并保持登录**。登录使你所有的东西（书签，应用，扩展，浏览记录等），都可以保存到云端，如此在不同的环境（如家 or 公司）下可以方便的同步。试想，重装系统，或者换台电脑之后，如果要逐个去找之前装的扩展，保存的书签，这样的事情，怎能称不上优雅？不是么?
 
 ## 快捷操作篇
+**天下武功，唯快不破**。掌握了搜索技巧，用对了合适插件，此为策略方法层面的事儿。这好比是在玩儿竞技游戏，能犀利而灵动的操作，也是取胜的关键。何况，在你的阵地上（Eg：电脑，浏览器，Terminal等），手随脑动，运指如飞，是一件多么酷的存在。而这，只需划分一点点时间，了解之熟悉之，享受快捷中寻求进阶，假以时日，便可心指合一，臻至化界。
 
-未完待续...
+首先，你需要了解其快捷键操作（常用），毕竟键盘操作，远比鼠标要迅捷且准确；这一点，Chrome 做的非常好，在于它跟很多软件操作习惯，是大致相同的（比如 Sublime），一通则百通。这个可以 在 Setting（F1 呼出） 项中的 Shortcuts 中查看。如果不符合固有操作习惯，也可以更改。然，欲穷千里目，则须更上一层楼；如要更为便捷的去操作，则强烈推荐 `Vimium`（或者 cVim），他们犀利的存在，好如游戏手柄，可以让你在 Chrome 上纵横捭阖；具体可以参见[Vimium~让您的Chrome起飞](http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/)。举例来说，比较常用 `r` 来刷新，`x` 来关闭当前，`t` 来新建标签，`gg` 回到页首等等；当然，这看起来方便的不是太多，可是有些需求，比如：你想拷贝当前标签页，一般操作可分为: **ctrl+l** 选中当前网址，然后 **ctrl+c**，**ctrl+t** 新建标签页之后 **ctrl+v**，最后还需 **Enter** 一回。如果使用 `Vimium`呢，只需 `yt` 即可，更可贵的在于，这还是深度拷贝，可将当前网页不仅是内容，还包括浏览历史，Session 等一并都复制了去，相比之下，真是贴心到了天际。
 
-2017.05.01 @深圳.南山； last modify：2017.05.04
+当你在搜索引擎搜某关键词时，多半会展示有一堆列表，一一点开查看，这样的效率实在是不高；这时候，就可以借助 [Linkclump](https://chrome.google.com/webstore/detail/linkclump/lfpjkncokllnfokkgpkobnkbkmelfefj?hl=zh-CN),一款用来**批量打开多个网页链接**的插件, 她能让你用鼠标框出你想打开的链接，就能在后台自动打开。这样的例子实在数不胜数，只要你足够懒，并积极探索与折腾，总能不断的提升效率，达至极致。
+
+除此外，还可以讲的是，很有必要**管理好书签**；你应该将其按一定规则，分门别类，放置于不同的书签夹中，以便自己清晰快速的检索。如果能略微记得，书签所存网址的个别单词，又完全可以借助 `Vimium` 去搜索，快捷键 `b(/B)`，分别是在当前页和新标签页打开，如此，效率的提升又进了一步，善哉。
+
+## 使用技巧篇
+强大如 **Chrome**，其亿万行代码的背后，存在着你无法想象的强大，如果你了解的越多，你越发深信这一点。倘若，你是一位有经验的开发者，你会明白，Chrome 不仅仅是一个浏览器那么简单。下面一起来学习下，Chrome 有哪些不为所致的技巧：
+- **Chrome的隐身模式：** 快捷键：Command + Shift + n （window下是 Ctrl + Shift + N）。它的好处在于：保护你的隐私。具体表现为，在此窗口中查看的网页，不会显示在浏览器历史记录，或搜索历史记录中，关闭隐身窗口后，也不会在计算机上留下 Cookie 之类的其他痕迹（但会保留所有下载的文件或创建的书签）；明白这一点，浏览些不想让人知道内容，是不是多了许多大胆的自由呢？需要在意的是，事实上隐身模式并非是万能的，该注意的还得谨慎。
+- **Chrome的about指令：** 作为一个 Chrome 用户，你该懂得 Chrome 地址栏功能，这让你变得更像一个合格的主人。试着在 Chrome 地址栏，输入 `chrome://about/`，这会展示出：List of Chrome URLs，如下图所示：
+
+![List of Chrome URLs](http://7xoosr.com1.z0.glb.clouddn.com/list-of-chrome-urls.png)
+
+仔细研究的话，发现这其中有些十分有意思，也很有价值，一起来看几个：
+
+>chrome://apps/            Chrome网上应用商店
+chrome://accessibility     查看浏览器当前访问的标签
+chrome://appcache-internals/  对HTML5应用的离线存储进行管理
+chrome://cache/            Chrome缓存（只读）
+chrome://components/       查看相关组件
+chrome://dns/              查看DNS记录
+chrome://extensions/       查看扩展程序
+chrome://plugins/          停用启用相关插件
+**chrome://omnibox/**      能地址栏（强大啊，你输入“晚晴”试试？）
+chrome://predictors/       URl输入命中率（结合 omnibox 使用）
+chrome://net-internals     Chrome的抓包工具
+chrome://quota-internals/  显示磁盘详细可用空间以及各个网站的使用配额
+chrome://thumbnails/       近期浏览的网站的首页快照（以相册的形式）
+view-source:<网页地址>      显示网页的源代码
+... ...
+
+- **Tab 搜索：** 支持 OpenSearch 的网站，在浏览器地址栏输入网址后，按Tab键，可在此网站内部进行搜索，这对部分 .com 结尾网站有效。例如地址栏输入“zhihu.com”，然后按一下Tab键，直接在知乎内部进行搜索，相当于 `site:zhihu.com`。
+
+2017.05.01 @深圳.南山； last modify：2017.05.17
+
+## **猜你感兴趣(/有用)文章：**
+
+* [那些所倚靠的利器记载](http://www.jeffjade.com/2016/03/17/2016-03-17-jade-tools/)
+* [Awesome Chrome 插件集锦](http://www.jeffjade.com/2017/01/23/118-chrome_awesome_plug-in/?me)
+* [Vimium~让您的Chrome起飞](http://www.jeffjade.com/2015/10/19/2015-10-18-chrome-vimium/)
+* [Win下最爱效率神器:AutoHotKey](http://www.jeffjade.com/2016/03/11/2016-03-11-autohotkey/#)
+* [Win下必备神器之Cmder](http://www.jeffjade.com/2016/01/13/2016-01-13-windows-software-cmder/)
+* [新编码神器Atom使用纪要](http://www.jeffjade.com/2016/03/03/2016-03-02-how-to-use-atom/)
+* [sublime text 下的Markdown写作](http://www.cnblogs.com/jadeboy/p/4165449.html)
+* [Mac必备软件渐集之ZSH－终极Shell](http://www.jeffjade.com/2015/07/29/2015-07-29-mac-musthave-software/)
