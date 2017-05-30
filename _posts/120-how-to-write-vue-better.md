@@ -55,7 +55,7 @@ files.keys().forEach((key) => {
 export default modules
 ```
 
-这样即可写出便捷的 [Icon Component](https://github.com/nicejade/jade-blog/blob/master/src/components/Icon/Icon.vue)，使用时只需添加新 Svg 入 assets，然后引用 icon 时填写对应 Svg 名字即可，十分方便；推此及它，我们可借助这样配置，去分解、组合各个模块，甚是方便。
+这样即可写出便捷的 [Icon Component](https://github.com/nicejade/nicelinks-vue-client/blob/master/src/components/Icon/Icon.vue)，使用时只需添加新 Svg 入 assets，然后引用 icon 时填写对应 Svg 名字即可，十分方便；推此及它，我们可借助这样配置，去分解、组合各个模块，甚是方便。
 
 ---
 
@@ -106,7 +106,7 @@ export default {
 
 ### **DllReferencePlugin**
 
-除此之外，在 `webpack` 这块，还是有非常多东西需要去优化，以缩短包构建的时间、改善其体积等等。比如可利用，`DllReferencePlugin` 将常用不怎么变更的文件，抽离出来打入另一统一的文件(vendor.dll.js)， 外链以 script 引入。这个网上教程很多，此不赘述。也可参见这个项目 [jade-blog]( https://github.com/nicejade/jade-blog) 来配置。如此一来，可加速开发构建时间。
+除此之外，在 `webpack` 这块，还是有非常多东西需要去优化，以缩短包构建的时间、改善其体积等等。比如可利用，`DllReferencePlugin` 将常用不怎么变更的文件，抽离出来打入另一统一的文件(vendor.dll.js)， 外链以 script 引入。这个网上教程很多，此不赘述。也可参见这个项目 [nicelinks-vue-client]( https://github.com/nicejade/nicelinks-vue-client) 来配置。如此一来，可加速开发构建时间。
 
 ### **webpack-bundle-analyzer**
 
