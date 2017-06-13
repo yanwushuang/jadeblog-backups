@@ -44,9 +44,10 @@ date: 2016-04-17 18:18:18
 - [墨香博客](http://www.codemx.cn/?from=jeffjade.com): 用代码实现自己的梦想
 - [Jing's Blog](http://www.iamlj.com/?from=jeffjade.com): 友链博主
 - [猿码阁](http://istarvip.cn/?from=jeffjade.com): 友链博主
-- [吕小鸣](https://www.nihaoshijie.com.cn/?from=jeffjade.com): 热爱前端，关注前端开发技术
+- [吕小鸣](https://www.nihaoshijie.com.cn/?from=jeffjade.com): 关注前端开发技术
 - [矿世的忧伤](http://konghy.cn/?from=jeffjade.com): 知音.文艺.友链博主
-- [WWW.ZYL.ME](https://zyl.me/?from=jeffjade.com): 爱折腾，喜欢造，极简主义者
+- [WWW.ZYL.ME](https://zyl.me/?from=jeffjade.com): 爱折腾,极简主义
+- [李君南](http://lijunnan.com/?from=jeffjade.com): 首位友链博主
 - [技术胖-胜洪宇](http://jspang.com/?from=jeffjade.com): 关注WEB前端技术
 - [VF2E](https://www.vf2e.com?from=jeffjade.com): 独立思考，停止盲从
 - [小温之家](http://wenqy.com/?from=jeffjade.com): 行走在猿类世界
