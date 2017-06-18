@@ -865,7 +865,6 @@ ucren js demos 集|http://ucren.com/blog/demos
 智能社|http://www.zhinengshe.com/works_list.html
 实例陈列架|http://demos.shizuwu.cn
 zoye demo|http://zoye.sinaapp.com/demo
-王员外|http://lab.yuanwai.wang
 平凡|http://pingfan1990.sinaapp.com
 jyg 游戏案例|http://www.lovewebgames.com
 很多jquery插件|http://www.helloweba.com/list.html
@@ -946,7 +945,8 @@ Fiddler调式使用知多少(一深入研究|http://www.cnblogs.com/tugenhua0707
 
 Chrome|地址
 :----:|:----:
-Google Chrome 官方|https://developer.chrome.com/devtools
+Google Chrome 官方 | https://developer.chrome.com/devtools
+**如何更好地运用 Chrome (Google)** | http://jeffjade.com/2017/05/01/122-how-to-better-use-google_chrome/
 Chrome - 基础|http://www.cnblogs.com/constantince/p/4565261.html
 Chrome - 进阶|http://www.cnblogs.com/constantince/p/4579121.html
 Chrome - 性能|http://www.cnblogs.com/constantince/p/4585983.html

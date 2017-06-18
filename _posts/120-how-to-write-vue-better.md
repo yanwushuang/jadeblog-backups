@@ -16,7 +16,11 @@ keywords: Vue, Webpack, Npm, Yarn, MVVM, ES6, Gulp, SublimeText, Atom
 
 >**微注：** 早先在写[如何优雅地使用Sublime Text](http://jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/?f=self)时候，前后历经10月，至今虽不断更新犹在，离该话题也是相去甚远。所以，谈及此一个宽广话题的存在，欲一谈也须深入研究，非朝夕可至；所以本篇将采取不定期更新，当然，这么做，也是治疗自身拖延症之一法子；另外也是限制聚合网抓取的一种尝试。Last Modify: 2017-03-11
 
->**更新：** 对于如何构建 VueJs 项目，自然推荐官方的脚手架 `vue-cli`；而对于微小型项目，个人倒挺看好 [poi](https://github.com/egoist/poi) —— (Delightful web development)，它能让你十分便捷的使用当前流行的框架（Vue React等）。即便如此呢，很多业界朋友，对 Vue 项目的构建，还是不尽如人意；鉴于此，有根据过往的些许经验，设计出一套样板 —— [vue-boilerplate-template](https://github.com/nicejade/vue-boilerplate-template)，以供参考，当然也期待朋友给予指正。其中已经依赖了 `vue-router`、`vuex`、`vue-i18n`、`element-ui`、`bootstrap` 诸多库；也注入了 `webpack`、`Eslint`、`pre-commit` 等等便捷开发相关的库。其中对与后台接口调用与使用，vuex 的运用，视图结构的塑造，路由和多语言的配置，公共方法的调度，webpack打包优化等等，都基于便捷开发的前提下，做了相应的设计，希望有缘人会喜欢；这一番设计缘由，得空会另起一篇文章予以阐明；而，这番设计也会，在不断的学习中持续改进 (Update@17-06-18)。
+---
+
+**更新：** 对于如何构建 VueJs 项目，自然推荐官方的脚手架 `vue-cli`；而对于微小型项目，个人倒挺看好 [poi](https://github.com/egoist/poi) —— (Delightful web development)，它能让你十分便捷的使用当前流行的框架（Vue React等）。即便如此呢，很多业界朋友，对 Vue 项目的构建，还是不尽如人意；鉴于此，有根据过往的些许经验，设计出一套样板 —— [vue-boilerplate-template](https://github.com/nicejade/vue-boilerplate-template)，以供参考，当然也期待朋友给予指正。其中已经依赖了 `vue-router`、 `vuex`、 `vue-i18n`、 `element-ui`、 `bootstrap` 诸多库；也注入了 `webpack`、 `Eslint`、 `pre-commit` 等等便捷开发相关的库。其中对与后台接口调用与使用，vuex 的运用，视图结构的塑造，路由和多语言的配置，公共方法的调度，webpack打包优化等等，都基于便捷开发的前提下，做了相应的设计，希望有缘人会喜欢；这一番设计缘由，得空会另起一篇文章予以阐明；而这番设计也会，在不断的学习中持续改进，敬请期待 (Update@17-06-18)。
+
+---
 
 **随言**: 身在程序的江湖，如你是一位即将出征武士，对决于浩瀚无尽的需求大军；那么你不仅需要一副好的体格，还需要一身技艺：而这`软件工程学`(抑或加算法)就好比内功（查克拉）；而所使用的`各家语言`，则好如武学招式（独孤九剑？）；那加以利用的各种工具，当如随身利器（小李飞刀？）；那属于自己一套极致开发流程，便是轻功（电光神行步？）......如是斯言，那么作为开发者的你，几技傍身耶？
 
